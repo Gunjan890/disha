@@ -7,17 +7,17 @@ from Spotify_Music import app
 def start_panel(_):
     buttons = [
         [
-            InlineKeyboardButton(text=" ᴀᴅᴅ ᴍᴇ ᴛᴏ ɢʀᴏᴜᴘ ", url=f"https://t.me/{app.username}?startgroup=true",
+            InlineKeyboardButton(text="🌹 ᴀᴅᴅ ᴍᴇ ᴛᴏ ɢʀᴏᴜᴘ 🌹", url=f"https://t.me/{app.username}?startgroup=true",
             ),
         ],
         [
-            InlineKeyboardButton(text=" ʜᴇʟᴘ ", callback_data="settings_back_helper"),
+            InlineKeyboardButton(text="🌹 ʜᴇʟᴘ 🌹", callback_data="settings_back_helper"),
             InlineKeyboardButton(
                 text=" sᴇᴛ ", callback_data="settings_helper"
             ),
         ],
       [
-             InlineKeyboardButton(text=" 🗑️ ", callback_data="close"),
+             InlineKeyboardButton(text="🌹 ᴄʟᴏsᴇ 🌹", callback_data="close"),
     ],
     ]
     return buttons
@@ -26,8 +26,8 @@ def start_panel(_):
 def private_panel(_):
     buttons = [
         [
-            InlineKeyboardButton(text=" ʜᴇʟᴘ ", callback_data="settings_back_helper"),
-            InlineKeyboardButton(text=" ᴅᴇᴠ ", url=f"https://t.me/ll_BAD_MUNDA_ll"),
+            InlineKeyboardButton(text="🌹 ʜᴇʟᴘ 🌹", callback_data="settings_back_helper"),
+            InlineKeyboardButton(text=" ❤️‍🔥 ᴋɪɴɢ ", url=f"https://t.me/apna_gunjan"),
             ],
                     [
                     InlineKeyboardButton(text=" ᴀᴅᴅ ᴍᴇ ᴛᴏ ɢʀᴏᴜᴘ ", url=f"https://t.me/{app.username}?startgroup=true",
@@ -35,7 +35,7 @@ def private_panel(_):
         ],
         [
             InlineKeyboardButton(text=_["S_B_7"], callback_data="gib_source"),
-             InlineKeyboardButton(text=" 🗑️ ", callback_data="close"),
+             InlineKeyboardButton(text="🌹 ᴄʟᴏsᴇ 🌹", callback_data="close"),
     ],
     ]
     return buttons
