@@ -223,10 +223,10 @@ queue_8 : "<b>{0} ᴘʟᴀʏᴇʀ</b>\n\n🎄 <b>sᴛʀᴇᴀᴍɪɴɢ :</b> {1}
 stream_1 : "➲ <b>Sᴛᴀʀᴛᴇᴅ Sᴛʀᴇᴀᴍɪɴɢ |</b>\n\n<b>‣ Tɪᴛʟᴇ :</b> <a href={0}>{1}</a>\n<b>‣ Dᴜʀᴀᴛɪᴏɴ :</b> {2} ᴍɪɴᴜᴛᴇs\n<b>‣ Rᴇǫᴜᴇsᴛᴇᴅ ʙʏ :</b> {3}\n\n‣ 𝖬ᴀᴅᴇ ʙʏ ➛ 🇬𝐮𝐧𝐣𝐚𝐧🐬"
 stream_2 : "➲ <b>Sᴛᴀʀᴛᴇᴅ Sᴛʀᴇᴀᴍɪɴɢ |</b>\n\n<b>‣ Sᴛʀᴇᴀᴍ ᴛʏᴘᴇ :</b> ʟɪᴠᴇ sᴛʀᴇᴀᴍ [ᴜʀʟ]\n<b>‣ Rᴇǫᴜᴇsᴛᴇᴅ ʙʏ :</b> {0}\n\n‣ 𝖬ᴀᴅᴇ ʙʏ ➛ 🇬𝐮𝐧𝐣𝐚𝐧🐬"
 
-CLOSE_BUTTON  : "🗑"
-BACK_BUTTON : "🔙"
-NEXT_PAGE: ">"
-BACK_PAGE: "<"
+CLOSE_BUTTON  : "🌹 ᴄʟᴏsᴇ 🌹"
+BACK_BUTTON : "🌹 🔙 🌹"
+NEXT_PAGE: "🌹 > 🌹"
+BACK_PAGE: "🌹 < 🌹"
 
 
 S_B_1 : "sᴜᴍᴍᴏɴ ᴍᴇ"
