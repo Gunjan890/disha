@@ -3,7 +3,7 @@ import asyncio
 from pyrogram import filters
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 
-from Spotify_Music import YouTube, app, YTB
+from Spotify_Music import YouTube, app
 from Spotify_Music.core.call import Spotify
 from Spotify_Music.misc import SUDOERS, db
 from Spotify_Music.utils.database import (
@@ -258,15 +258,7 @@ async def del_back_playlist(client, CallbackQuery, _):
                     video=status,
                 )
             except:
-                try:
-                    file_path, direct = await YTB.download(
-                        videoid,
-                        mystic,
-                        videoid=True,
-                        video=status,
-                    )
-                except:
-                    return await mystic.edit_text(_["call_6"])
+                return await mystic.edit_text(_["call_6"])
             try:
                 image = await YouTube.thumbnail(videoid, True)
             except:
