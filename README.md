@@ -21,11 +21,6 @@
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
 
-## 🖇 Generating Pyrogram String Session
-
-<p>
-<a href="https://t.me/apna_gunjan"><img src="https://img.shields.io/badge/DEMO%20BOT-blueviolet?style=for-the-badge&logo=appveyor" width="200""/></a>
-<a href="https://t.me/apna_gunjan"><img src="https://img.shields.io/badge/DM%20TO%20BADMUNDA-blueviolet?style=for-the-badge&logo=appveyor" width="200""/></a>
 
 # 𝗗𝗘𝗣𝗟𝗢𝗬 𝗢𝗡 𝗛𝗘𝗥𝗢𝗞𝗨
 <p align="center"><a href="http://dashboard.heroku.com/new?template=https://github.com/Gunjan890/disha"> <img src="https://img.shields.io/badge/Deploy%20On%20Heroku-greenviolet?style=for-the-badge&logo=heroku" width="220" height="38.45"/></a></p>
