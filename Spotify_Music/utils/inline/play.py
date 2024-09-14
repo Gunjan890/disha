@@ -71,7 +71,7 @@ def stream_markup_timer(_, vidid, chat_id, played, dur):
                 text="⛦ ᴏᴡɴᴇʀ ❥", url=f"https://t.me/baby_x_music_bot"
             ),
             InlineKeyboardButton(
-                text="⛦ ᴄʜᴀᴛ ❥", url=f"https://t.me/+Dqp82sPJUv1iOU1"
+                text="⛦ ᴄʜᴀᴛ ❥", url=f"https://t.me/+IdB7D9f5r_UzOTc1"
             ),
         ],
         [InlineKeyboardButton(text=_["CLOSE_BUTTON"], callback_data="close")],
@@ -92,7 +92,7 @@ def stream_markup(_, videoid, chat_id):
                 text="⛦ ᴏᴡɴᴇʀ ❥", url=f"https://t.me/baby_x_music_bot"
             ),
             InlineKeyboardButton(
-                text="⛦ ᴄʜᴀᴛ ❥", url=f"https://t.me/+Dqp82sPJUv1iOU1"
+                text="⛦ ᴄʜᴀᴛ ❥", url=f"https://t.me/+IdB7D9f5r_UzOTc1"
             ),
         ],
         [InlineKeyboardButton(text=_["CLOSE_BUTTON"], callback_data="close")],
