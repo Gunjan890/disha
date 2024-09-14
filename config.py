@@ -47,7 +47,7 @@ SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/+IdB7D9f5r_UzOTc1")
 SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/+IdB7D9f5r_UzOTc1")
 
 # Set this to True if you want the assistant to automatically leave chats after an interval
-AUTO_LEAVING_ASSISTANT = bool(getenv("AUTO_LEAVING_ASSISTANT", False))
+AUTO_LEAVING_ASSISTANT = bool(getenv("AUTO_LEAVING_ASSISTANT", True))
 
 # Auto Gcast/Broadcast Handler (True = broadcast on , False = broadcast off During Hosting, Dont Do anything here.)
 AUTO_GCAST = os.getenv("AUTO_GCAST")
@@ -90,10 +90,10 @@ confirmer = {}
 
 
 START_IMG_URL = getenv(
-    "START_IMG_URL", "https://graph.org/file/94918b340445db8a72c02.jpg"
+    "START_IMG_URL", "https://telegra.ph/file/a71a13946988c8f506729.jpg"
 )
 PING_IMG_URL = getenv(
-    "PING_IMG_URL", "https://graph.org/file/94918b340445db8a72c02.jpg"
+    "PING_IMG_URL", "https://telegra.ph/file/f58134b916951c71f5bdc.jpg"
 )
 PLAYLIST_IMG_URL = "https://telegra.ph/file/b869ffe0f2b6d233e21c1.jpg"
 STATS_IMG_URL = "https://telegra.ph/file/f58134b916951c71f5bdc.jpg"
