@@ -72,10 +72,11 @@ def aq_markup(_, chat_id):
             InlineKeyboardButton(text="▢", callback_data=f"ADMIN Stop|{chat_id}"),
         ],
         [
-            InlineKeyboardButton(text="❤️‍🔥 ᴋɪɴɢ🌸", url="https://t.me/apna_gunjan"),
             InlineKeyboardButton(
-                text="๏ ᴍᴏʀᴇ ๏",
-                url="https://t.me/+ene8OqR6V6tiMzM9",
+                text="⛦ ᴏᴡɴᴇʀ ❥", url=f"https://t.me/baby_x_music_bot"
+            ),
+            InlineKeyboardButton(
+                text="⛦ ᴄʜᴀᴛ ❥", url=f"https://t.me/+IdB7D9f5r_UzOTc1"
             ),
         ],
         [InlineKeyboardButton(text=_["CLOSE_BUTTON"], callback_data="close")],
@@ -110,10 +111,10 @@ def queuemarkup(_, vidid, chat_id):
             ),
         ],
         [
-            InlineKeyboardButton(text="❤️‍🔥 ᴋɪɴɢ🌸", url="https://t.me/apna_gunjan"),
+            InlineKeyboardButton(text="⛦ ᴏᴡɴᴇʀ ❥", url=f"https://t.me/baby_x_music_bot"),
             InlineKeyboardButton(
                 text="๏ ᴍᴏʀᴇ ๏",
-                url="https://t.me/+8huyLCAdA6o0OWRl",
+                url="https://t.me/+IdB7D9f5r_UzOTc1",
             ),
         ],
     ]
