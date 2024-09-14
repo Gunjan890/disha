@@ -26,7 +26,7 @@ LOGGER_ID = int(getenv("LOGGER_ID", None))
 LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "-1002293966599"))
 
 # Get this value from @BRANDRD_ROBOT on Telegram by /id
-OWNER_ID = int(getenv("OWNER_ID"))
+OWNER_ID = int(getenv("OWNER_ID", "7511932060"))
 
 ## Fill these variables if you're deploying on heroku.
 # Your heroku app name
@@ -47,7 +47,7 @@ SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/+IdB7D9f5r_UzOTc1")
 SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/+IdB7D9f5r_UzOTc1")
 
 # Set this to True if you want the assistant to automatically leave chats after an interval
-AUTO_LEAVING_ASSISTANT = bool(getenv("AUTO_LEAVING_ASSISTANT", True))
+AUTO_LEAVING_ASSISTANT = bool(getenv("AUTO_LEAVING_ASSISTANT", False))
 
 # Auto Gcast/Broadcast Handler (True = broadcast on , False = broadcast off During Hosting, Dont Do anything here.)
 AUTO_GCAST = os.getenv("AUTO_GCAST")
