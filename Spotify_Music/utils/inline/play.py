@@ -67,9 +67,11 @@ def stream_markup_timer(_, vidid, chat_id, played, dur):
             InlineKeyboardButton(text="▢", callback_data=f"ADMIN Stop|{chat_id}"),
         ],
        [
-            InlineKeyboardButton(text="❤️‍🔥 ᴋɪɴɢ🌸", url="https://t.me/II_gunjan_II"),
-        InlineKeyboardButton(
-                text="⛦ ᴄʜᴀᴛ ❥", url=f"https://t.me/+ene8OqR6V6tiMzM9"
+            InlineKeyboardButton(
+                text="⛦ ᴏᴡɴᴇʀ ❥", url=f"https://t.me/baby_x_music_bot"
+            ),
+            InlineKeyboardButton(
+                text="⛦ ᴄʜᴀᴛ ❥", url=f"https://t.me/+Dqp82sPJUv1iOU1"
             ),
         ],
         [InlineKeyboardButton(text=_["CLOSE_BUTTON"], callback_data="close")],
@@ -86,9 +88,11 @@ def stream_markup(_, videoid, chat_id):
             InlineKeyboardButton(text="▢", callback_data=f"ADMIN Stop|{chat_id}"),
         ],
        [
-            InlineKeyboardButton(text="❤️‍🔥 ᴋɪɴɢ🌸", url="https://t.me/II_gunjan_II"),
-        InlineKeyboardButton(
-                text="⛦ ᴄʜᴀᴛ ❥", url=f"https://t.me/+ene8OqR6V6tiMzM9"
+            InlineKeyboardButton(
+                text="⛦ ᴏᴡɴᴇʀ ❥", url=f"https://t.me/baby_x_music_bot"
+            ),
+            InlineKeyboardButton(
+                text="⛦ ᴄʜᴀᴛ ❥", url=f"https://t.me/+Dqp82sPJUv1iOU1"
             ),
         ],
         [InlineKeyboardButton(text=_["CLOSE_BUTTON"], callback_data="close")],
@@ -233,7 +237,9 @@ def stream_markup2(_, chat_id):
             InlineKeyboardButton(text="▢", callback_data=f"ADMIN Stop|{chat_id}"),
         ],
        [
-            InlineKeyboardButton(text="❤️‍🔥 ᴋɪɴɢ🌸", url="https://t.me/II_gunjan_II"),
+            InlineKeyboardButton(
+                text="⛦ ᴏᴡɴᴇʀ ❥", url=f"https://t.me/baby_x_music_bot"
+            ),
         InlineKeyboardButton(text=_["CLOSE_BUTTON"], callback_data="close")],
     ]
     return buttons
